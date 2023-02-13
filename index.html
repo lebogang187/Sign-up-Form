@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/intermediate-html/Sign-up-Form/styles.css" rel="Stylesheet">
+    <title>Sign-up Form</title>
+</head>
+<body>
+
+    <div class="image-section">
+        <h1>Cafe 420 </h1>
+    </div>
+
+    <div class="form-control">
+        <h3>Welcome to Cafe 420</h3>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p><br>
+        <p>You know you want to</p><br>
+        <form action="" method="get">
+            <legend>Lets do this</legend><br>
+            <div class="controls">
+                <div class="line-left">
+                    <label for="first_name">First name</label>
+                    <input type="text" class="controlZ" id="first_name" placeholder="Lebo" required>
+                </div>
+                <div class="line-right">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" class="controlZ" id="last_name" placeholder="Lottering" required>
+                </div>
+            </div>
+
+            <div class="controls">
+                <div class="line-left"> 
+                    <label for="user_email">Email</label>
+                    <input type="email" class="controlZ" id="user_email" placeholder="you@me.com" required>
+                </div>
+                <div class="line-right">    
+                    <label for="Cell_number">Phone number</label>
+                    <input type="tel" class="controlZ" id="cell_number" placeholder="+27 73 720 6811" min="10" max="12" required>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="line-left">
+                    <label for="user_password">Password</label>
+                    <input type="password" class="controlZ" id="user_password" minlength="6" maxlength="20" pattern="(?=.*\d)(?.*[a-z])(?=.*[A-Z]).{8,}" placeholder="enter 6-20 characters" required>
+                </div>
+                <div class="line-right">
+                    <label for="password_confirmation">Confirm password</label>
+                    <input type="password" class="controlZ" id="password_confirmation" minlength="6" maxlength="20" pattern="(?=.*\d)(?.*[a-z])(?=.*[A-Z]).{8,}" placeholder="enter 6-20 characters" required>
+                </div>
+            </div><br><br>
+            <button type="submit">Create Account</button>
+        </form>
+        <P>Already have an account? <a href="#">Log in</a></P>
+    </div>
+    
+</body>
+</html>
