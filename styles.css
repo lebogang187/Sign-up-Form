@@ -1,0 +1,76 @@
+:root {
+    --form-control-color: rgb(112, 16, 61);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+    background-image: linear-gradient(to right, purple, limegreen);
+}
+
+h3 {
+    color: var(--form-control-color);
+}
+
+.image-section {
+    height: 100vh;
+    width: 30%;
+    background-image: url("/intermediate-html/Sign-up-Form/images/martijn-baudoin-0Z0EofYqMMg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.line-left, .line-right {
+    flex: 1 1 50%;
+}
+
+.controlZ {
+    height: 20px;
+    
+}
+
+.form-control {
+    width: 70%;
+    background-image: url("/intermediate-html/Sign-up-Form/images/ryan-lange-JPI6SKrd-Rw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-image: linear-gradient(to right, purple, limegreen);*/
+}
+
+label {
+    display: block;
+}
+
+.error {
+    color: red;
+}
+
+button {
+    height: 40px;
+    border-radius: 7px;
+    border: 2px solid var(--form-control-color);
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid var(--form-control-color);
+    background-image: linear-gradient(to right, purple, limegreen);
+}
+
+button:hover {
+    background-image: linear-gradient(to right, purple, limegreen);
+}
