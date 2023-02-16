@@ -25,7 +25,7 @@ p {
     height: 100vh;
     width: 30%;
     text-align: center;
-    background-image: url("/intermediate-html/Sign-up-Form/images/martijn-baudoin-0Z0EofYqMMg-unsplash.jpg");
+    background-image: url("Sign-up-Form/images/martijn-baudoin-0Z0EofYqMMg-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -55,7 +55,7 @@ p {
 
 .form-control {
     width: 70%;
-    background-image: url("/intermediate-html/Sign-up-Form/images/ryan-lange-JPI6SKrd-Rw-unsplash.jpg");
+    background-image: url("Sign-up-Form/images/ryan-lange-JPI6SKrd-Rw-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     /*background-image: linear-gradient(to right, purple, limegreen);*/
